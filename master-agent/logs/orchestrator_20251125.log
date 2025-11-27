@@ -1,0 +1,20 @@
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: project_initialization)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: project_initialization)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Project initialized: TEST_20251125_130345 - Test E-Commerce Platform
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Project initialized: TEST_20251125_130345 - Test E-Commerce Platform
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Transitioning: idle --[start]--> analyzing_brd
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Transitioning: idle --[start]--> analyzing_brd
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: transition_start)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: transition_start)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Transitioning: analyzing_brd --[brd_parsed]--> requirements
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Transitioning: analyzing_brd --[brd_parsed]--> requirements
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: transition_brd_parsed)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: transition_brd_parsed)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: test)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint saved: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json (reason: test)
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint loaded: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint loaded: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Checkpoint loaded: /Users/rahul.singh/Downloads/ADK/master-agent/state/checkpoint_20251125_130345.json
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Resumed at phase: requirements
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Resumed at phase: requirements
+2025-11-25 13:03:45,568 - core.orchestrator - INFO - Resumed at phase: requirements

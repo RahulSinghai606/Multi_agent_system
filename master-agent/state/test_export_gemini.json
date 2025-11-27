@@ -1,0 +1,100 @@
+{
+  "version": "2.0",
+  "cli_agnostic": true,
+  "target_cli": "gemini",
+  "exported_at": "2025-11-25T13:03:45.569010",
+  "state": {
+    "project_id": "TEST_20251125_130345",
+    "project_name": "Test E-Commerce Platform",
+    "created_at": "2025-11-25T13:03:45.567886",
+    "current_phase": "requirements",
+    "current_subphase": null,
+    "completed_phases": [
+      "idle",
+      "analyzing_brd"
+    ],
+    "pending_phases": [
+      "requirements",
+      "design",
+      "implementation",
+      "testing",
+      "deployment",
+      "monitoring"
+    ],
+    "current_task": "Project initialization",
+    "next_recommended_action": "/sc:master start",
+    "token_usage": 0,
+    "estimated_completion": 0.0,
+    "human_gates_status": {},
+    "graphiti_episode_ids": [],
+    "serena_memory_keys": [],
+    "code_context_paths": [],
+    "critical_decisions": [],
+    "workflow_config": {
+      "project_type": "web_application",
+      "complexity_level": "simple",
+      "tech_stack": {
+        "javascript": "react"
+      },
+      "integrations": {
+        "pm_tool": "jira",
+        "cicd_platform": "github_actions"
+      },
+      "repo_structure": "multi_repo"
+    }
+  },
+  "instructions": {
+    "context": "Project: Test E-Commerce Platform, Phase: requirements",
+    "current_task": "Project initialization",
+    "next_action": "/sc:master start",
+    "completed": [
+      "idle",
+      "analyzing_brd"
+    ],
+    "pending": [
+      "requirements",
+      "design",
+      "implementation",
+      "testing",
+      "deployment",
+      "monitoring"
+    ],
+    "important_notes": [
+      "All workflows are dynamically generated - no hardcoded paths",
+      "Use Graphiti for decision history and architecture evolution",
+      "Serena memory contains code context and project structure"
+    ]
+  },
+  "gemini_config": {
+    "model": "gemini-1.5-pro",
+    "tools": [
+      "mcp_rube",
+      "mcp_serena",
+      "mcp_graphiti",
+      "mcp_sequential"
+    ],
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": 40,
+    "safety_settings": {
+      "harassment": "BLOCK_NONE",
+      "hate": "BLOCK_NONE",
+      "sexual": "BLOCK_NONE",
+      "dangerous": "BLOCK_NONE"
+    }
+  },
+  "gemini_instructions": {
+    "setup": [
+      "Ensure Gemini CLI is installed and authenticated",
+      "Verify MCP servers are accessible",
+      "Load project context from state"
+    ],
+    "resume_steps": [
+      "1. Load checkpoint state",
+      "2. Retrieve Graphiti episodes for context",
+      "3. Load Serena project memory",
+      "4. Resume from current phase",
+      "5. Follow workflow_config for next steps"
+    ]
+  }
+}

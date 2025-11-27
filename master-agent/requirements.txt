@@ -1,0 +1,35 @@
+# Master Agent Requirements
+# Python 3.10+ required
+
+# Core dependencies
+dataclasses-json==0.6.3  # Enhanced dataclass serialization
+python-dateutil==2.8.2   # Date/time utilities
+
+# Logging and monitoring
+python-json-logger==2.0.7  # Structured logging
+
+# Optional dependencies (if not using MCPs)
+anthropic==0.34.0        # For direct API calls (fallback)
+openai==1.54.0           # For OpenAI compatibility (fallback)
+
+# Development dependencies (optional)
+pytest==8.3.3            # Testing framework
+pytest-cov==4.1.0        # Coverage reporting
+black==24.10.0           # Code formatting
+mypy==1.13.0             # Type checking
+pylint==3.3.1            # Linting
+
+# Documentation (optional)
+mkdocs==1.6.1            # Documentation generation
+mkdocs-material==9.5.42  # Material theme
+
+# Note: MCP integrations are handled through Claude Code's MCP system
+# No additional pip packages required for:
+# - Rube MCP
+# - Serena MCP
+# - Graphiti MCP
+# - Sequential MCP
+# - Magic MCP
+# - Playwright MCP
+# - Context7 MCP
+# - Figma MCP
